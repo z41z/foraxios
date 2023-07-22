@@ -10,7 +10,7 @@ Easy Axios to use.
 
 ``` js
 import foraxios from 'foraxios';
-// Message is necessary
+// Message is unnecessary
 import { Message } from 'element-ui';
 const $foraxios = new foraxios({
   // Request handler
