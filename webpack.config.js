@@ -5,7 +5,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./dist"),
     filename: 'index.min.js',
-    library: "foraxios",
+    library: "ForAxios",
+    libraryTarget: 'umd'
   },
   resolve: {
     extensions: ['.js']

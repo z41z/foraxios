@@ -9,10 +9,10 @@ Easy Axios to use.
 ### Usage
 
 ``` js
-import foraxios from 'foraxios';
+import ForAxios from 'foraxios';
 // Message is unnecessary
 import { Message } from 'element-ui';
-const $foraxios = new foraxios({
+const foraxios = new ForAxios({
   // Request handler
   request(config) {
     // config content is api request content.
@@ -42,7 +42,7 @@ const $foraxios = new foraxios({
 
 // Common request
 const login = (data) => {
-  return $foraxios.$api(
+  return foraxios.$api(
     {
       url: `/api/login`,
       method: 'post',
@@ -53,7 +53,7 @@ const login = (data) => {
 }
 // Donwload binary file
 const exportFile = (data) => {
-  return $foraxios.$api(
+  return foraxios.$api(
     {
       url: `/api/export`,
       data: {

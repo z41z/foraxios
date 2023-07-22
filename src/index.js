@@ -2,7 +2,7 @@
  * 请求
  */
 import axios from 'axios';
-export default class {
+export const ForAxios =  class {
   constructor(conf) {
     let { timeout = 10e3, headers, success = () => { }, error = () => { }, isShowConsole = true, request = () => { } } = conf
     // 创建axios实例

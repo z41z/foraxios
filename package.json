@@ -1,6 +1,6 @@
 {
   "name": "foraxios",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy Axios to use.",
   "main": "index.js",
   "scripts": {
