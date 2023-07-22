@@ -81,5 +81,5 @@ const exportFile = (data) => {
   - {*} data  :`Request data.`
   - {String} name  :`API name.`
   - {String} method = 'get' :`Request method.`
-  - {String} type  :`Only for binary file download`
+  - {String} type  :`Set value 'file' then download binary file.`
   - {*} mockData  :`Mock Data`
