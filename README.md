@@ -57,7 +57,7 @@ const exportFile = (data) => {
     {
       url: `/api/export`,
       data: {
-        ...params,
+        ...data,
         fileName: 'export.xlsx'
       },
       name: 'export file',
